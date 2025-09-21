@@ -98,7 +98,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#mission-vision">Services</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#projects">Contact Us</a></li>
+          <li><a href="">Contact Us</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -135,8 +135,8 @@
               <h2>HORIZON</h2>
               <h4 class="mb-3 text-warning"> Designers & Developers</h4>
               <p class="fs-6" style="text-align: center;">From villas to modern workspaces, Horizon delivers world-class designs and elegant interiors crafted for global standards and GCC needs.</p>
-              <a href="#services" class="btn-get-started">Explore Services</a>
-              <a href="#contact" class="btn-get-started">Free Consultation</a>
+              <a href="#services" class="btn-get-started">Our Services</a>
+              <a href="#contact" class="btn-get-started">Contact Us</a>
             </div>
           </div>
         </div>
@@ -179,28 +179,136 @@
 
 
     <!-- About Section -->
-    <section id="about" class="about section py-5">
-      <div class="container">
-        <div class="row align-items-center justify-content-center g-5">
-          <div class="col-lg-6 d-flex justify-content-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/about.jpg" class="about-responsive-img shadow" alt="About Horizon">
+    <section id="about" class="about-section-custom">
+      <div class="about-custom-container">
+        <div class="about-custom-grid">
+          <div class="about-custom-img-wrap" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/about.jpg" class="about-custom-img" alt="About Horizon">
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="about-content p-3 p-md-4 rounded-4 bg-white h-100 d-flex flex-column justify-content-center">
-              <h3 class="inner-title mb-3 text-center">About Us</h3>
-              <p class="mb-2" style="text-align:justify;">At <strong>Horizon Designers & Developers</strong>, every space tells a story. Based in Wayanad, Kerala, we blend creative vision, technical precision, and cultural adaptability to craft designs that inspire, uplift, and endure.</p>
-              <p class="mb-3" style="text-align:justify;">Our expertise spans residential and commercial projects, with a focus on globally aligned designs tailored for GCC standards. We don’t just create buildings – we design lifestyles, experiences, and legacies.</p>
-              <h5 class="mb-2 mt-3">What We Stand For</h5>
-              <ul class="list-unstyled mb-0">
-                <li class="mb-1"><i class="bi bi-check-circle text-warning me-2"></i> <strong>Innovation:</strong> Bold ideas, modern tools</li>
-                <li class="mb-1"><i class="bi bi-check-circle text-warning me-2"></i> <strong>Excellence:</strong> Quality without compromise</li>
-                <li class="mb-1"><i class="bi bi-check-circle text-warning me-2"></i> <strong>Adaptability:</strong> Local roots, global vision</li>
-                <li><i class="bi bi-check-circle text-warning me-2"></i> <strong>Sustainability:</strong> Future-ready, eco-conscious</li>
+          <div class="about-custom-content section-title" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="mb-3">About Us</h2>
+            <p class="about-custom-desc mx-4" style="text-align: justify;">At <strong>Horizon Designers &amp; Developers</strong>, every space tells a story. Based in Wayanad, Kerala, we blend creative vision, technical precision, and cultural adaptability to craft designs that inspire, uplift, and endure.</p>
+            <p class="about-custom-desc mx-4 mt-2" style="text-align: justify;">Our expertise spans residential and commercial projects, with a focus on globally aligned designs tailored for GCC standards. We don’t just create buildings – we design lifestyles, experiences, and legacies.</p>
+            <div class="about-custom-features">
+              <h5 class="about-custom-features-title mb-3 mx-4 my-5 text-start">What We Stand For</h5>
+              <ul class="about-custom-features-list mx-4">
+                <li><span class="about-custom-icon"><i class="bi bi-lightbulb"></i></span> <strong>Innovation:</strong>&nbsp;Bold ideas, modern tools</li>
+                <li><span class="about-custom-icon"><i class="bi bi-star"></i></span> <strong>Excellence:</strong>&nbsp;Quality without compromise</li>
+                <li><span class="about-custom-icon"><i class="bi bi-globe"></i></span> <strong>Adaptability:</strong>&nbsp;Local roots, global vision</li>
+                <li><span class="about-custom-icon"><i class="bi bi-leaf"></i></span> <strong>Sustainability:</strong>&nbsp;Future-ready, eco-conscious</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
+
+      <style>
+        .about-section-custom {
+          background: linear-gradient(120deg, #f8fafc 0%, #f3f6fb 100%);
+          padding: 60px 0 40px 0;
+        }
+        .about-custom-container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 18px;
+        }
+        .about-custom-grid {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 48px;
+        }
+        .about-custom-img-wrap {
+          flex: 1 1 340px;
+          display: flex;
+          justify-content: center;
+        }
+        .about-custom-img {
+          width: 100%;
+          max-width: 400px;
+          border-radius: 22px;
+          box-shadow: 0 6px 32px rgba(0,0,0,0.10);
+          border: 3px solid #e5e5e5;
+          background: #fff;
+          object-fit: cover;
+        }
+        .about-custom-content {
+          flex: 2 1 420px;
+          background: transparent;
+          padding: 0 10px;
+        }
+        .about-custom-title {
+          font-size: 2.2rem;
+          font-weight: 700;
+          color: #222;
+          margin-bottom: 18px;
+          letter-spacing: 1px;
+        }
+        .about-custom-desc {
+          font-size: 1.08rem;
+          color: #444;
+          margin-bottom: 12px;
+          text-align: justify;
+        }
+        .about-custom-features {
+          margin-top: 22px;
+        }
+        .about-custom-features-title {
+          font-size: 1.15rem;
+          font-weight: 600;
+          color: #feb900;
+          margin-bottom: 10px;
+        }
+        .about-custom-features-list {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
+        .about-custom-features-list li {
+          display: flex;
+          align-items: center;
+          font-size: 1rem;
+          color: #333;
+          margin-bottom: 8px;
+          background: #fff;
+          border-radius: 10px;
+          padding: 8px 14px;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .about-custom-icon {
+          color: #feb900;
+          font-size: 1.3em;
+          margin-right: 10px;
+          display: flex;
+          align-items: center;
+        }
+        @media (max-width: 991.98px) {
+          .about-custom-grid {
+            flex-direction: column;
+            gap: 32px;
+          }
+          .about-custom-content {
+            padding: 0;
+          }
+        }
+        @media (max-width: 575.98px) {
+          .about-section-custom {
+            padding: 36px 0 18px 0;
+          }
+          .about-custom-title {
+            font-size: 1.5rem;
+          }
+          .about-custom-img {
+            max-width: 98vw;
+            border-radius: 14px;
+          }
+          .about-custom-features-list li {
+            font-size: 0.98rem;
+            padding: 7px 8px;
+          }
+        }
+      </style>
+      
     </section>
 
     <style>
@@ -222,7 +330,9 @@
         border-color: #feb900;
       }
       .about-content {
-        box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+        background: #f8f9fa !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
       }
       @media (max-width: 991.98px) {
         .about-responsive-img {
@@ -245,7 +355,7 @@
         <p>Comprehensive Design Solutions for Homes, Offices, and Beyond</p>
       </div><!-- End Section Title -->
 
-      <div class="container">
+      <div class="container mt-4">
 
         <div class="row gy-4">
 
@@ -344,7 +454,7 @@
     <h2>Mission & Vision</h2>
     <p>What drives Horizon Designers & Developers</p>
   </div>
-  <div class="container">
+  <div class="container mt-4">
     <div class="row g-4 justify-content-center">
       <!-- Mission Card -->
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
@@ -396,12 +506,12 @@
     <section id="services" class="services section light-background">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title mt-4" data-aos="fade-up">
         <h2>Our Features</h2>
         <p>Our Promise, Your Advantage</p>
       </div><!-- End Section Title -->
 
-      <div class="container">
+      <div class="container mt-4">
 
         <div class="row gy-4">
 
@@ -482,7 +592,7 @@
                 <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
                 <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
               </div>
-            </div><!-- End Icon Box 
+            </div> <!-- End Icon Box 
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-patch-check flex-shrink-0"></i>
@@ -1065,85 +1175,157 @@
 
 
   
-  <!-- <footer id="footer" class="footer dark-background">
+  <footer id="footer" class="footer dark-background">
 
     <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">UpConstruction</span>
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-5 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center mb-2">
+            <img src="assets/img/logos/raps-logo-horizontal.png" alt="Horizon Logo" style="height:38px; margin-right:10px;">
+            <span class="sitename" style="font-size:1.5rem;font-weight:700;letter-spacing:1px;">HORIZON</span>
           </a>
-          <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          <div class="footer-contact pt-2">
+            <p>Wayanad, Kerala, India</p>
+            <p class="mb-1"><strong>Phone:</strong> <span>+91-8848693836</span></p>
+            <p><strong>Email:</strong> <span>info@rapsnoor.in</span></p>
           </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+          <div class="social-links d-flex mt-3">
+            <a href="https://twitter.com/rapsnoor" target="_blank" rel="noopener"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://facebook.com/rapsnoor" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
+            <a href="https://instagram.com/rapsnoor" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+            <a href="https://linkedin.com/company/rapsnoor" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
-
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Quick Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#mission-vision">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#mission-vision">3D Exterior Designs</a></li>
+            <li><a href="#mission-vision">3D Interior Designs</a></li>
+            <li><a href="#mission-vision">2D Planning</a></li>
+            <li><a href="#mission-vision">Consulting</a></li>
+            <li><a href="#mission-vision">Renovation</a></li>
           </ul>
         </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
-          <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
-          </ul>
+        <div class="col-lg-3 col-md-12 footer-newsletter">
+          <h4>About Horizon</h4>
+          <p style="font-size:0.98rem; color:#bbb;">Horizon Designers &amp; Developers crafts innovative, globally aligned spaces for homes, offices, and commercial projects. We blend creativity, precision, and cultural insight for every client.</p>
         </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
-          </ul>
-        </div>
-
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">UpConstruction</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Horizon Designers &amp; Developers</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-       All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+        Designed by <a href="https://venusco.in/" target="_blank" rel="noopener">Venusco</a>
       </div>
     </div>
+
+    <style>
+      #footer.footer {
+        background: linear-gradient(120deg, #23272b 0%, #2d3238 100%);
+        color: #eee;
+        padding: 48px 0 0 0;
+        font-size: 1rem;
+      }
+      #footer .footer-top {
+        padding-bottom: 18px;
+      }
+      #footer .logo img {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        margin-right: 10px;
+      }
+      #footer .sitename {
+        color: #feb900;
+        font-family: 'Poppins',sans-serif;
+      }
+      #footer .footer-contact p {
+        margin-bottom: 4px;
+        color: #ccc;
+      }
+      #footer .footer-links h4 {
+        color: #feb900;
+        font-size: 1.08rem;
+        margin-bottom: 10px;
+        font-weight: 600;
+      }
+      #footer .footer-links ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      #footer .footer-links ul li {
+        margin-bottom: 7px;
+      }
+      #footer .footer-links ul a {
+        color: #eee;
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      #footer .footer-links ul a:hover {
+        color: #feb900;
+      }
+      #footer .footer-newsletter h4 {
+        color: #feb900;
+        font-size: 1.08rem;
+        margin-bottom: 10px;
+        font-weight: 600;
+      }
+      #footer .footer-newsletter p {
+        color: #bbb;
+        margin-bottom: 0;
+      }
+      #footer .social-links a {
+        color: #feb900;
+        font-size: 1.3rem;
+        margin-right: 16px;
+        transition: color 0.2s;
+      }
+      #footer .social-links a:hover {
+        color: #fff;
+      }
+      #footer .copyright {
+        border-top: 1px solid #393e44;
+        margin-top: 32px;
+        padding-top: 18px;
+        color: #bbb;
+        font-size: 0.98rem;
+      }
+      #footer .credits a {
+        color: #feb900;
+        text-decoration: none;
+      }
+      @media (max-width: 991.98px) {
+        #footer .footer-top .row > div {
+          margin-bottom: 18px;
+        }
+      }
+      @media (max-width: 575.98px) {
+        #footer.footer {
+          padding: 28px 0 0 0;
+        }
+        #footer .logo img {
+          height: 28px;
+        }
+        #footer .sitename {
+          font-size: 1.1rem;
+        }
+        #footer .footer-newsletter p {
+          font-size: 0.93rem;
+        }
+      }
+    </style>
 
   </footer> 
 
