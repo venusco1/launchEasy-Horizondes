@@ -133,8 +133,8 @@
           <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-9 text-center">
               <h2>HORIZON</h2>
-              <h3> Designers and Developers</h3>
-              <p style="text-align: center;"><b class="text-warning">From villas to modern workspaces, Horizon delivers world-class designs and elegant interiors crafted for global standards and GCC needs.</p>
+              <h4 class="mb-3 text-warning"> Designers & Developers</h4>
+              <p class="fs-6" style="text-align: center;">From villas to modern workspaces, Horizon delivers world-class designs and elegant interiors crafted for global standards and GCC needs.</p>
               <a href="#services" class="btn-get-started">Explore Services</a>
               <a href="#contact" class="btn-get-started">Free Consultation</a>
             </div>
@@ -177,42 +177,64 @@
     </section><!-- /Hero Section -->
 
 
+
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section id="about" class="about section py-5">
       <div class="container">
-
-        <div class="row position-relative">
-
-          <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img src="assets/img/about.jpg"></div>
-
-          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
-            <h2 class="inner-title">About Us</h2>
-            <div class="our-story">
-              <!-- <h4>Est. 2013</h4> -->
-              <!-- <h3>Our Story</h3> -->
-              <p style="text-align: justify;">At Horizon Designers & Developers, we believe that every space tells a story. Based in Wayanad, Kerala, we combine creative vision, technical precision, and cultural adaptability to craft designs that inspire, uplift, and endure.</p>
-              <p style="text-align: justify;">Our expertise covers both residential and commercial projects, with a strong focus on delivering globally aligned designs customized for GCC standards. With innovation at the core, we don’t just create buildings – we design lifestyles, experiences, and legacies.</p>
-              <br>
-              <h4> What We Stand for</h4> 
-              <ul>            
-                <li><i class="bi bi-check-circle"></i> <span>Innovation: Bold ideas, modern tools</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Excellence: Quality without compromise</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Adaptability: Local roots, global vision</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Sustainability: Future-ready, eco-conscious</span></li>
+        <div class="row align-items-center justify-content-center g-5">
+          <div class="col-lg-6 d-flex justify-content-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/about.jpg" class="about-responsive-img shadow" alt="About Horizon">
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="about-content p-3 p-md-4 rounded-4 bg-white h-100 d-flex flex-column justify-content-center">
+              <h3 class="inner-title mb-3 text-center">About Us</h3>
+              <p class="mb-2" style="text-align:justify;">At <strong>Horizon Designers & Developers</strong>, every space tells a story. Based in Wayanad, Kerala, we blend creative vision, technical precision, and cultural adaptability to craft designs that inspire, uplift, and endure.</p>
+              <p class="mb-3" style="text-align:justify;">Our expertise spans residential and commercial projects, with a focus on globally aligned designs tailored for GCC standards. We don’t just create buildings – we design lifestyles, experiences, and legacies.</p>
+              <h5 class="mb-2 mt-3">What We Stand For</h5>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-1"><i class="bi bi-check-circle text-warning me-2"></i> <strong>Innovation:</strong> Bold ideas, modern tools</li>
+                <li class="mb-1"><i class="bi bi-check-circle text-warning me-2"></i> <strong>Excellence:</strong> Quality without compromise</li>
+                <li class="mb-1"><i class="bi bi-check-circle text-warning me-2"></i> <strong>Adaptability:</strong> Local roots, global vision</li>
+                <li><i class="bi bi-check-circle text-warning me-2"></i> <strong>Sustainability:</strong> Future-ready, eco-conscious</li>
               </ul>
-             
-              <div class="watch-video d-flex align-items-center position-relative">
-               <!-- <i class="bi bi-play-circle"></i>
-                 <a href="https://www.youtube.com" class="glightbox stretched-link">Watch Video</a> -->
-              </div>
             </div>
           </div>
-
         </div>
-
       </div>
+    </section>
 
-    </section><!-- /About Section -->
+    <style>
+      /* Modern About Section Styles */
+      .about-responsive-img {
+        width: 90%;
+        max-width: 420px;
+        background: #fff;
+        border: 3px solid #e5e5e5;
+        border-radius: 22px;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+        padding: 0;
+        margin: 0 auto;
+        display: block;
+        transition: box-shadow 0.2s, border-color 0.2s;
+      }
+      .about-responsive-img:hover {
+        box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+        border-color: #feb900;
+      }
+      .about-content {
+        box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+      }
+      @media (max-width: 991.98px) {
+        .about-responsive-img {
+          width: 100%;
+          /* padding-left: 10px;
+          padding-right: 10px; */
+        }
+        .about-content {
+          padding: 1.5rem 0.5rem;
+        }
+      }
+    </style>
 
     <!-- Service section -->
     <section id="mission-vision" class="constructions section">
@@ -617,7 +639,7 @@
 
 
 
-    <!-- Projects Section -->
+    Projects Section -->
     <section id="projects" class="projects section">
 
       <!-- Section Title -->
@@ -626,16 +648,15 @@
         <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
       </div><!-- End Section Title -->
 
-      <div class="container mb-0">
+      <div class="container">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-remodeling">Exterior Design</li>
-            <li data-filter=".filter-construction">Interior Design</li>
-           
-         </ul><!-- End Portfolio Filters -->
+            <li data-filter=".filter-remodeling">Exterior</li>
+            <li data-filter=".filter-construction">Interior</li>
+          </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
